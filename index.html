@@ -1,0 +1,264 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Title of the document</title>
+</head>
+<body>
+	<a href="index.html">Home</a>
+	<a href="pages/contact.html">contact us</a>
+	<b style="background-color: deeppink;">
+	<a href="page/HW.html">Home Work</a>
+	<b>
+	
+	<label style="background-color: yellow;">Click Here For Hw</label>
+ 	<h3 align="center" style=" background-color: lightseagreen;">Wellcome To The Group Of</h3>
+ 	<h2 align="center" style="background-color: pink;">SSB-528(Full Stack Web Development Online 53)</h2>
+ 	
+ 	<div align="center" style="background-color: lightseagreen;">
+ 	<h3> Powered by:</h3>
+ 	<h1> Shikhbe Shobai</h1>
+ 	</div>
+ <img src="images/ssb.jpg" alt="ssb"align="center">
+ <hr>
+ 	
+ 	
+ 
+ 	<p align="center">2023 copyright @ emonahmed, All rights Reserved</p>
+
+<h1 style="color:seagreen;">The mark Element</h1>
+
+  <p> 
+  	"Do not forget to buy"
+   <mark>milk</mark>
+      "today"
+  </p>
+  <h1 style="color:seagreen;">The mater Element</h1>
+  <p> The meter element is used to display a gauge:</p>
+  
+  <label for="disk_c"> Disk usage C:</label>
+   <meter id="disk_c"value="2" min="0" max="10">2 out of 10 </meter><br>
+
+<label for="disk_d">Disk usage D:</label>
+<meter id="disk_d" value="0.6">60%</meter>
+
+<p><strong>Note:</strong> The meter tag is not supported in Edge 12 (or earlier).</p>
+<h1 style="color:seagreen;">The nav element</h1>
+
+<p>The nav element defines a set of navigation links:</p>
+
+<nav>
+<a href="/html/">HTML</a> |
+<a href="/css/">CSS</a> |
+<a href="/js/">JavaScript</a> |
+<a href="/python/">Python</a>
+</nav>
+<h1 style="color:seagreen;">The noscript element</h1>
+
+<p>A browser with JavaScript disabled will show the text inside the noscript element ("Hello World!" will not be displayed).</p>
+
+<script>
+ document.write ("Hello World!")
+</script> Hello World!
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+<h1 style="color:seagreen;">The optgroup &amp; Option element</h1>
+
+<p>The optgroup tag is used to group related options in a drop-down list:</p>
+
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select name="cars" id="cars">
+    <optgroup label="Swedish Cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+    </optgroup>
+    <optgroup label="German Cars">
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </optgroup>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+<h1 style="color:seagreen;">The output element</h1>
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+<input type="range" id="a" value="50">
++<input type="number" id="b" value="25">
+=<output name="x" for="a b"></output>
+</form>
+
+<p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+<h1 style="color:">The param element</h1>
+
+<object data="../videos/nature.mp4">
+<param name="autoplay" value="true">
+</object>
+<h1>The picture element</h1>
+
+<p>Resize the browser window to load different images.</p>
+
+<img src="images/trulli.jpg" alt="trulli" align="center">
+
+<picture>
+  <source media="(min-width:650px)" srcset="../images/pic_trulli.jpg">
+  <source media="(min-width:465px)" srcset="../images/pic_trulli.jpg">
+  <img src="../images/pic_trulli.jpg" alt="trulli" style="width:auto;">
+</picture>
+<h1 style="color:seagreen;">The pre element</h1>
+<h2>Standard pre</h2>
+<pre>This is a standard pre. It will use as much space as it needs.</pre>
+
+<h2>Fixed width pre</h2>
+<div style="width:200px;overflow:auto">
+<pre>This is a pre with a fixed width. It will use as much space as specified.</pre>
+</div>
+<h1 style="color:seagreen;">The progress element</h1>
+
+<label for="file">Downloading progress:</label>
+<progress id="file" value="32" max="100"> 32% </progress>
+<h1 style="color:seagreen;">The q element + CSS</h1>
+
+<p>WWF's goal is to: 
+<q>Build a future where people live in harmony with nature.</q>
+We hope they succeed.</p>
+<h1 style="color:seagreen;">The rp, rt &amp; ruby element</h1>
+
+<ruby>
+漢 <rp>(</rp><rt>ㄏㄢˋ</rt><rp>)</rp>
+</ruby>
+<h1 style="color:seagreen;">The samp element</h1>
+
+<p>Message from my computer:</p>
+
+<p><samp>File not found.<br>Press F1 to continue</samp></p>
+<h1 style="color:seagreen;">The script element</h1>
+
+<p id="demo">Hello JavaScript!</p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+<h1 style="color:seagreen;">The section element</h1>
+
+<section>
+  <h2>WWF History</h2>
+  <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+</section>
+
+<section>
+  <h2>WWF's Symbol</h2>
+  <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+</section>
+<h1 style="color:seagreen;">The source &amp; audio element</h1>
+
+<p>Click on the play button to play a sound:</p>
+
+  		<audio controls="">
+  			<source src="../media/sound.mp3" type="audio/mpeg">
+  				<p>Your browser does not support the audio element</p>
+  		</audio>
+  		<h1 style="color:seagreen;">The sub and sup elements</h1>
+
+<p>This text contains <sub>subscript</sub> text.</p>
+<p>This text contains <sup>superscript</sup> text.</p>
+<h1 style="color:seagreen;">The svg element</h1>
+
+<svg height="130" width="500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1"></stop>
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1"></stop>
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="40" fill="url(#grad1)"></ellipse>
+  <text fill="#ffffff" font-size="30" font-family="Verdana" x="50"y="86">EMON</text>
+Sorry, your browser does not support inline SVG.
+</svg>
+<h1 style="color: seagreen;">The thead, tbody, and tfoot elements - Styled with CSS</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+</table>
+<h1 style="color:seagreen;">The textarea element - Disable default resize option</h1>
+
+<p><label for="w3review">Review of W3Schools:</label></p>
+
+<textarea id="w3review" name="w3review" rows="4" cols="50">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+</textarea>
+<h1 style="color:seagreen;">The time element</h1>
+
+<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+
+<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+
+<p><b>Note:</b> The time element does not render as anything special in any of the major browsers.</p>
+<h1 style="color:seagreen;">The video element</h1>
+<video width="320" height="240" controls="">
+  <source src="../videos/nature.mp4" type="video/mp4">
+    <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+  
+</video>
+<h1 style="color: seagreen;">The wbr element</h1>
+
+<p>Try to shrink the browser window, to view how the very long word in 
+the paragraph below will break:</p>
+
+<p>This is a veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryvery<wbr>longwordthatwillbreakatspecific<wbr>placeswhenthebrowserwindowisresized.</p>
+
+<p><b>Note:</b> The wbr element is not supported in Internet Explorer 11 (or earlier).</p>
+
+		<hr>
+		<p align="center">2023 Copyright @ emonahmed, All rights Reserved.</p>
+
+<iframe frameborder="0" scrolling="no" style="background-color: transparent; border: 0px; display: none;"></iframe><div id="GOOGLE_INPUT_CHEXT_FLAG" input="" input_stat="{&quot;tlang&quot;:true,&quot;tsbc&quot;:true,&quot;pun&quot;:true,&quot;mk&quot;:true,&quot;ss&quot;:true}" style="display: none;"></div></body>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
